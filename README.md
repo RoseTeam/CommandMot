@@ -8,8 +8,7 @@ Pour l'édition du code de la carte moteur via Visual Studio :
 ```
 pip install platformio
 ```
-- s'assurer que platformio est dans le chemin windows (taper platformio dans une fenêtre cmd, ça doit marcher)
-
+- s'assurer que platformio est dans le chemin windows (taper platformio dans une fenêtre cmd, ça doit marcher). Relancer Visual Studio après une mise à jour du PATH pour que les changements soient pris en compte
 - ouvrir la solution qui se trouve dans nucleoF401re/nucleoF401re
 - S'assurer que la solution est bien compilée en x86 (pas x64):
 
