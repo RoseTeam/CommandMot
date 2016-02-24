@@ -8,6 +8,10 @@ Pour l'édition du code de la carte moteur via Visual Studio :
 ```
 pip install platformio
 ```
+- s'assurer que platformio est dans le chemin windows (taper platformio dans une fenêtre cmd, ça doit marcher)
+
 - ouvrir la solution qui se trouve dans nucleoF401re/nucleoF401re
+- S'assurer que la solution est bien compilée en x86 (pas x64):
+
 
 voilà !
