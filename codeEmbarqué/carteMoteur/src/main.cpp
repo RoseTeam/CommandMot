@@ -53,7 +53,8 @@ int main()
             
 			if (ComPC.checkTimeOut())
 			{
-				ComPC.sendHeartBeat(88288);
+				ComPC.pc.printf("Drien vu de %ds!", COM_TIMEOUT);
+				ComPC.resetTimeOut();
 			}
 
             //asser.UpdateCmd();
